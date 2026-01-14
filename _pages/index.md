@@ -1,5 +1,5 @@
 ---
-title: About
+title: Welcome
 permalink: /index
 layout: home
 ---
