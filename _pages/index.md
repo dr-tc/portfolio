@@ -12,7 +12,7 @@ header:
 
 excerpt: "You can add text here."
 intro: 
-  - excerpt: 'You can also add text like this....  `type="center"`'
+  - excerpt: 'You can also add text like this....'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
