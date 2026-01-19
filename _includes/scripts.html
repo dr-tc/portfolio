@@ -18,8 +18,7 @@
   {%- endcase -%}
 {% endif %}
 
-{% include analytics.html %}
-{% include /comments-providers/scripts.html %}
+{% comment %}Analytics/comments removed for student template{% endcomment %}
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
