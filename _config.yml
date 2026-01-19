@@ -24,12 +24,48 @@ author:
   location: "Add location here" # Location of the student
   email: # Email of the student
 
-# Footer links (optional)
-footer:
-  links:
-    - label: "GitHub"
+# Author links
+ links: 
+    - label: "Email" # Email link
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website" # Website link
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter" # Twitter link
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook" # Facebook link
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub" # GitHub link
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/your-username"
+      # url: "https://github.com/"
+    - label: "Instagram"  
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Site Footer
+footer: # Site footer
+  links: # Footer links
+    - label: "Twitter" # Twitter link
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook" # Facebook link
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub" # GitHub link
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab" # GitLab link
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket" # Bitbucket link
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram" # Instagram link
+      icon: "fab fa-fw fa-instagram"
+      # url:
   since: "2026" # Year shown in the footer
 
 
