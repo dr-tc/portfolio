@@ -113,15 +113,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Therese Charles"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "In Flux"
-  email            : "theresecharles@gmail.com"
+  name: "Therese Charles"
+  bio: "I am an **amazing** person."
+  location: "In Flux"
+  email: "theresecharles@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:theresecharles@gmail.com"
+      url: "mailto:theresecharles@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
