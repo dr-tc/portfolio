@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt"
 
 
 
-   #Site Author
+# Site Author
 author:
   name: "Student Name" # Name of the student
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
@@ -24,8 +24,8 @@ author:
   location: "Add location here" # Location of the student
   email: # Email of the student
 
-# Author links
- links: 
+  # Author links
+  links:
     - label: "Email" # Email link
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
@@ -41,7 +41,7 @@ author:
     - label: "GitHub" # GitHub link
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"  
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
