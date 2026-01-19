@@ -1,6 +1,6 @@
 ---
 title: "TC Portfolio"
-layout: splash
+layout: single
 permalink: /
 header:
   overlay_color: "#000"
