@@ -6,7 +6,7 @@ baseurl: "/portfolio2" # Repo name if site is in a project repo, blank for user/
 locale: "en-GB" # Language/region
 
 # Theme settings (used by the existing CSS)
-minimal_mistakes_skin: "air" # Change the color skin if you want
+minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Footer links (optional)
 footer:
@@ -14,7 +14,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/your-username"
+<<<<<<< HEAD
   since: "2026" # Year shown in the footer
+
 
 # Reading files (what Jekyll includes/excludes)
 include:
