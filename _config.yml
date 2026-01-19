@@ -14,11 +14,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/your-username"
-<<<<<<< HEAD
-  since: "2024" # Year shown in the footer
-=======
-  since: "2026"
->>>>>>> 0ecd51c192360d5471f97ebe23b7288002134b9c
+  since: "2026" # Year shown in the footer
 
 # Reading files (what Jekyll includes/excludes)
 include:
