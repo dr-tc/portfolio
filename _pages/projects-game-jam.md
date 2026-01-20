@@ -45,6 +45,6 @@ This page demonstrates two separate galleries.
 
 ## Gameplay Gallery
 {% include gallery id="gallery_gameplay" %}
-
+This is text in between the galleries 
 ## Art Gallery
 {% include gallery id="gallery_art" %}
