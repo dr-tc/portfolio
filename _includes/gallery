@@ -21,7 +21,7 @@
 <div class="gallery gallery--{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     {% assign lightbox_title = img.title | default: img.caption %}
-    <figure class="gallery__item{% if img.text_position %} gallery__item--text-{{ img.text_position }}{% endif %}">
+    <figure class="gallery__item">
       {% if img.url %}
         <a href="{{ img.url | relative_url }}"
           class="gallery__link"
@@ -41,9 +41,6 @@
       {% endif %}
       {% if img.caption %}
         <figcaption class="gallery__caption">{{ img.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
-      {% endif %}
-      {% if img.text %}
-        <p class="gallery__text">{{ img.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
     </figure>
   {% endfor %}

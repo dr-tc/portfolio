@@ -13,44 +13,31 @@ gallery_gameplay:
     alt: "Gameplay 1"
     title: "Core loop"
     caption: "Core loop"
-    text: "Basic controls and player feedback."
-    width: "280px"
   - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Gameplay 2"
     title: "Challenge"
     caption: "Challenge"
-    text: "Increasing difficulty with new hazards. This example uses side-by-side text."
-    text_position: "beside"
-    width: "280px"
   - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Gameplay 3"
     title: "Power-ups"
     caption: "Power-ups"
-    text: "Collectibles that change player movement and strategy."
-    width: "280px"
   - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Gameplay 4"
     title: "Boss arena"
     caption: "Boss arena"
-    text: "A larger arena that tests the core mechanics."
-    width: "280px"
   - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Gameplay 5"
     title: "UI feedback"
     caption: "UI feedback"
-    text: "HUD improvements for clarity and accessibility."
-    width: "280px"
   - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Gameplay 6"
     title: "Final tweak"
     caption: "Final tweak"
-    text: "Balance and tuning in the final build."
-    width: "280px"
 
 gallery_art:
   # Recommended: width "240px" to "320px" keeps a neat grid
@@ -72,7 +59,7 @@ gallery_art:
 
 This is a short introduction paragraph that explains the project, the theme, and the main goal of the jam. It gives visitors quick context before they view the media.
 
-{% include figure image_path="/assets/images/placeholder.jpg" alt="Game Jam screenshot" caption="Early prototype screenshot" %}
+{% include figure image_path="/assets/images/placeholder.jpg" alt="Game Jam screenshot" caption="Am example of how to insert a single image" %}
 
 Here is a second paragraph with more detail about the gameplay loop, tools used, and what the team learned during the jam. This text sits between the intro image and the gallery.
 
