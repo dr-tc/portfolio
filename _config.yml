@@ -51,21 +51,27 @@ footer: # Site footer
     - label: "Twitter" # Twitter link
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
+      target: "_blank"
     - label: "Facebook" # Facebook link
       icon: "fab fa-fw fa-facebook-square"
       # url:
+      target: "_blank"
     - label: "GitHub" # GitHub link
       icon: "fab fa-fw fa-github"
       # url:
+      target: "_blank"
     - label: "GitLab" # GitLab link
       icon: "fab fa-fw fa-gitlab"
       # url:
+      target: "_blank"
     - label: "Bitbucket" # Bitbucket link
       icon: "fab fa-fw fa-bitbucket"
       # url:
+      target: "_blank"
     - label: "Instagram" # Instagram link
       icon: "fab fa-fw fa-instagram"
       # url:
+      target: "_blank"
   since: "2026" # Year shown in the footer
 
 
