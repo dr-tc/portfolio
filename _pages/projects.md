@@ -5,7 +5,7 @@ permalink: /projects/
 sidebar:
   title: "Projects"
   nav:
-    - main
+    - projects
 ---
 
 Welcome to the projects page. This is where you can list your game projects.
