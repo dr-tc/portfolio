@@ -7,18 +7,21 @@ sidebar:
   nav:
     - projects
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
+  - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Screenshot 1"
     title: "Prototype build"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
+    caption: "Prototype build"
+  - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Screenshot 2"
     title: "Level design pass"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
+    caption: "Level design pass"
+  - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
     alt: "Screenshot 3"
     title: "Final polish"
+    caption: "Final polish"
 ---
 
 This page demonstrates the `gallery` include.
