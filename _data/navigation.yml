@@ -18,8 +18,7 @@ main:
         url: /pages/single/
       - title: "Splash Layout"
         url: /pages/splash/
-  - title: "About"
-    url: /about/
+ 
 
 # Sidebar menu for the Projects page
 projects:
