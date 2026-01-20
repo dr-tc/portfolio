@@ -18,12 +18,6 @@ main:
         url: /pages/single/
       - title: "Splash Layout"
         url: /pages/splash/
-      - title: "Home Layout"
-        url: /pages/home/
-      - title: "Posts Layout"
-        url: /pages/posts/
-      - title: "Collection Layout"
-        url: /pages/collection/
   - title: "About"
     url: /about/
 
@@ -42,9 +36,3 @@ pages:
     url: /pages/single/
   - title: "Splash Layout"
     url: /pages/splash/
-  - title: "Home Layout"
-    url: /pages/home/
-  - title: "Posts Layout"
-    url: /pages/posts/
-  - title: "Collection Layout"
-    url: /pages/collection/
