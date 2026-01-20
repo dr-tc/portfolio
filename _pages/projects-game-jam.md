@@ -23,6 +23,34 @@ gallery_gameplay:
     text: "Increasing difficulty with new hazards. This example uses side-by-side text."
     text_position: "beside"
     width: "280px"
+  - url: /assets/images/placeholder.jpg
+    image_path: /assets/images/placeholder.jpg
+    alt: "Gameplay 3"
+    title: "Power-ups"
+    caption: "Power-ups"
+    text: "Collectibles that change player movement and strategy."
+    width: "280px"
+  - url: /assets/images/placeholder.jpg
+    image_path: /assets/images/placeholder.jpg
+    alt: "Gameplay 4"
+    title: "Boss arena"
+    caption: "Boss arena"
+    text: "A larger arena that tests the core mechanics."
+    width: "280px"
+  - url: /assets/images/placeholder.jpg
+    image_path: /assets/images/placeholder.jpg
+    alt: "Gameplay 5"
+    title: "UI feedback"
+    caption: "UI feedback"
+    text: "HUD improvements for clarity and accessibility."
+    width: "280px"
+  - url: /assets/images/placeholder.jpg
+    image_path: /assets/images/placeholder.jpg
+    alt: "Gameplay 6"
+    title: "Final tweak"
+    caption: "Final tweak"
+    text: "Balance and tuning in the final build."
+    width: "280px"
 
 gallery_art:
   # Recommended: width "240px" to "320px" keeps a neat grid
@@ -42,10 +70,11 @@ gallery_art:
     width: "280px"
 ---
 
-This page demonstrates two separate galleries.
+This is a short introduction paragraph that explains the project, the theme, and the main goal of the jam. It gives visitors quick context before they view the media.
+
+{% include figure image_path="/assets/images/placeholder.jpg" alt="Game Jam screenshot" caption="Early prototype screenshot" %}
+
+Here is a second paragraph with more detail about the gameplay loop, tools used, and what the team learned during the jam. This text sits between the intro image and the gallery.
 
 ## Gameplay Gallery
-{% include gallery id="gallery_gameplay" %}
-This is text in between the galleries 
-## Art Gallery
-{% include gallery id="gallery_art" %}
+{% include gallery id="gallery_gameplay" layout="third" %}
