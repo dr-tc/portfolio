@@ -9,6 +9,21 @@ main:
         url: /projects/game-jam/
       - title: "Capstone"
         url: /projects/capstone/
+  - title: "Pages"
+    url: /pages/
+    children:
+      - title: "Default Layout"
+        url: /pages/default/
+      - title: "Single Layout"
+        url: /pages/single/
+      - title: "Splash Layout"
+        url: /pages/splash/
+      - title: "Home Layout"
+        url: /pages/home/
+      - title: "Posts Layout"
+        url: /pages/posts/
+      - title: "Collection Layout"
+        url: /pages/collection/
   - title: "About"
     url: /about/
 
@@ -18,3 +33,18 @@ projects:
     url: /projects/game-jam/
   - title: "Capstone"
     url: /projects/capstone/
+
+# Sidebar menu for the Pages page
+pages:
+  - title: "Default Layout"
+    url: /pages/default/
+  - title: "Single Layout"
+    url: /pages/single/
+  - title: "Splash Layout"
+    url: /pages/splash/
+  - title: "Home Layout"
+    url: /pages/home/
+  - title: "Posts Layout"
+    url: /pages/posts/
+  - title: "Collection Layout"
+    url: /pages/collection/
