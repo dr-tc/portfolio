@@ -16,12 +16,18 @@
   {% endif %}
 {% endif %}
 
-<figure class="{{ gallery_layout }} {{ include.class }}">
+{% assign gallery_id = include.id | default: 'gallery' %}
+
+<div class="gallery gallery--{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    <figure class="gallery__item">
+    {% assign lightbox_title = img.title | default: img.caption %}
+    <figure class="gallery__item{% if img.text_position %} gallery__item--text-{{ img.text_position }}{% endif %}">
       {% if img.url %}
         <a href="{{ img.url | relative_url }}"
-          {% if img.title %}title="{{ img.title | escape_once }}"{% endif %}>
+          class="gallery__link"
+          data-gallery="{{ gallery_id }}"
+          {% if img.caption %}data-caption="{{ img.caption | escape_once }}"{% endif %}
+          {% if lightbox_title %}title="{{ lightbox_title | escape_once }}"{% endif %}>
             <img src="{{ img.image_path | relative_url }}"
                  alt="{% if img.alt %}{{ img.alt | escape_once }}{% endif %}"
                  {% if img.width or img.height %}style="{% if img.width %}width: {{ img.width }};{% endif %}{% if img.height %}height: {{ img.height }};{% endif %}"{% endif %}
@@ -42,6 +48,6 @@
     </figure>
   {% endfor %}
   {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+    <p class="gallery__caption gallery__caption--group">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</p>
   {% endif %}
-</figure>
+</div>

@@ -20,7 +20,8 @@ gallery_gameplay:
     alt: "Gameplay 2"
     title: "Challenge"
     caption: "Challenge"
-    text: "Increasing difficulty with new hazards."
+    text: "Increasing difficulty with new hazards. This example uses side-by-side text."
+    text_position: "beside"
     width: "280px"
 
 gallery_art:

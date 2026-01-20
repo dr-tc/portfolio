@@ -261,6 +261,66 @@ figcaption {
   }
 }
 
+/* Gallery layout */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.gallery__item {
+  margin: 0;
+  width: 100%;
+}
+
+.gallery__item img {
+  width: 100%;
+  border-radius: $border-radius;
+}
+
+.gallery__caption {
+  margin-top: 0.5em;
+  color: $muted-text-color;
+  font-family: $caption-font-family;
+  font-size: $type-size-6;
+}
+
+.gallery__text {
+  margin-top: 0.25em;
+}
+
+.gallery__item--text-beside {
+  @include breakpoint($small) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1em;
+    align-items: start;
+  }
+}
+
+.gallery__item--text-beside .gallery__text,
+.gallery__item--text-beside .gallery__caption {
+  grid-column: 2;
+}
+
+.gallery__item--text-beside img,
+.gallery__item--text-beside a {
+  grid-column: 1;
+}
+
+.gallery--half .gallery__item {
+  @include breakpoint($small) {
+    width: calc(50% - 0.5em);
+  }
+}
+
+.gallery--third .gallery__item {
+  @include breakpoint($small) {
+    width: calc(33.3333% - 0.67em);
+  }
+}
+
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
