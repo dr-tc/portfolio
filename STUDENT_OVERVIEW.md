@@ -1,6 +1,8 @@
 # Portfolio Site Overview (GitHub Pages + Jekyll)
 
-This repo is a starter portfolio site designed for games students. You will fork it, edit a few files, and publish your portfolio using GitHub Pages.
+[Quick-Start Guide - Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
+**This** repo is a starter portfolio site designed for games students. You will fork it, edit a few files, and publish your portfolio using GitHub Pages.
 
 ## What is GitHub Pages?
 GitHub Pages is a free hosting service from GitHub. It builds your site from the files in your repo and serves it as a website.  
