@@ -1,5 +1,5 @@
 ---
-title: "Add a Title"
+title: "Page Title"
 layout: splash
 permalink: /
 header:
