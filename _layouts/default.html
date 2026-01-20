@@ -14,8 +14,12 @@
     {% include masthead.html %}
 
     <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
+      <div id="main" role="main">
+        <section class="page__content">
+          {{ content }}
+        </section>
+        {% include after-content.html %}
+      </div>
     </div>
 
     <div id="footer" class="page__footer">
