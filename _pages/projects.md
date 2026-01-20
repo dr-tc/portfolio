@@ -10,8 +10,4 @@ sidebar:
 
 Welcome to the projects page. This is where you can list your game projects.
 
-## Example project
-- **Title:** My Game
-- **Role:** Programmer / Designer
-- **Tools:** Unity, C#
-- **Summary:** Short description of what you built and what you learned.
+You can use this page to show a reel of all projects and then have a separate page for each project.

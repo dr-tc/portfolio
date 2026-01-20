@@ -14,10 +14,7 @@ main:
 
 # Sidebar menu for the Projects page
 projects:
-  - title: "Projects"
-    url: /projects/
-    children:
-      - title: "Game Jam"
-        url: /projects/game-jam/
-      - title: "Capstone"
-        url: /projects/capstone/
+  - title: "Game Jam"
+    url: /projects/game-jam/
+  - title: "Capstone"
+    url: /projects/capstone/
