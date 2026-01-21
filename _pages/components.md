@@ -81,18 +81,17 @@ Examples of the following below:
 1. [Text](#text)
 2. [Hyperlink](#hyperlink)
 3. [Quote](#quote)
-4. [Hero](#hero)
-5. [Logo](#logo)
-6. [Favicon](#favicon)
-7. [Image](#image)
-8. [Gallery](#gallery)
-9. [Second Gallery](#second-gallery)
-10. [Video](#video)
-11. [Standard button](#standard-button)
-12. [Call to Action (CTA) Button](#call-to-action-cta-button)
-13. [Skills](#skills)
-14. [Feature row](#feature-row)
-15. [Contact Form](#contact-form)
+4. [Logo](#logo)
+5. [Favicon](#favicon)
+6. [Image](#image)
+7. [Gallery](#gallery)
+8. [Second Gallery](#second-gallery)
+9. [Video](#video)
+10. [Standard button](#standard-button)
+11. [Call to Action (CTA) Button](#call-to-action-cta-button)
+12. [Skills](#skills)
+13. [Feature row](#feature-row)
+14. [Contact Form](#contact-form)
 
 
 ## 1. Use markdown to format text {#text}
@@ -104,34 +103,35 @@ Examples of the following below:
 
 {% include quote text="This was the most polished student game I have ever played in my life!" author="Lecturer Feedback" %}
 
-## 4. Hero {#hero}
 
-## 5. Logo {#logo}
+## 4. Logo {#logo}
+To use a logo in the `masthead` of your site. Ensure you have the images stored in `assets/images` Go to `config.yml` and add the url to your preferred image. 
 
-## 6. Favicon {#favicon}
+## 5. Favicon {#favicon}
+What is a favicon? To use one on your site, go to <a href="https://favicon.io/" target="_blank" rel="noopener noreferrer">Favicon.io</a> and generate a set of favicons. For now you can just upload the 32 x 32 size to `assets/images`. 
 
-## 7. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
+## 6. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
-## 8. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  {#gallery}
+## 7. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  {#gallery}
 {% include gallery id="gallery_gameplay" layout="third" thumb_height="180px" %}
 
-## 9. Second gallery in the same page - Make sure you reference the gallery id. {#second-gallery}
+## 8. Second gallery in the same page - Make sure you reference the gallery id. {#second-gallery}
 ## Game Art Gallery
 {% include gallery id="gallery_gameart" layout="third" thumb_height="180px" %}
 
-## 10. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`.  {#video}
+## 9. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`.  {#video}
 Let's talk about the Rick Roll phenomena...
 {% include video id="dQw4w9WgXcQ" provider="youtube" %}
 
-## 11. Standard button - Look at the `button` include to see the available keys. {#standard-button}
+## 10. Standard button - Look at the `button` include to see the available keys. {#standard-button}
 {% include button
   url="/projects/"
   label="View All Projects"
   class="btn--primary"
 %}
 
-## 12. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys. {#call-to-action-cta-button}
+## 11. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys. {#call-to-action-cta-button}
 
 {% include download
   title="Download my Project Proposal"
@@ -140,13 +140,13 @@ Let's talk about the Rick Roll phenomena...
   download="Project-proposal.pdf"
 %}
 
-## 14. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. Use <a href="https://fontawesome.com/icons" target="_blank" rel="noopener noreferrer">Font Awesome</a> for icons. {#skills}
+## 12. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. Use <a href="https://fontawesome.com/icons" target="_blank" rel="noopener noreferrer">Font Awesome</a> for icons. {#skills}
 {% include skills skills=page.skills %}
 
-## 14. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys.  {#feature-row}
+## 13. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys.  {#feature-row}
 {% include feature_row %}
 
-## 15. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this.  {#contact-form}
+## 14. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this.  {#contact-form}
 {% include google-form
   title="Contact Me"
   src="https://forms.gle/XsbApFoRjn7r24jy6"
