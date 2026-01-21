@@ -12,11 +12,9 @@
 {%- comment %} https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present {% endcomment -%}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% if site.favicon %}
-  <link rel="icon" href="{{ site.favicon | relative_url }}">
-{% else %}
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
-{% endif %}
+{% assign favicon_path = site.favicon | default: '/assets/images/favicon.png' %}
+{% assign favicon_version = site.favicon_version | default: 1 %}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ favicon_path | relative_url }}?v={{ favicon_version }}">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
