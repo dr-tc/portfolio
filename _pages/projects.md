@@ -16,4 +16,4 @@ Example hyperlink (opens in a new window):
 <a href="https://example.com" target="_blank" rel="noopener noreferrer">Visit an external site</a>
 
 Example quote:
-{% include quote text="This was the most polished student game I played this year." author="Mentor Feedback" %}
+{% include quote text="This was the most polished student game I have ever played in my life!" author="Mentor Feedback" %}
