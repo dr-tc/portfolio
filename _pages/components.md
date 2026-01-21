@@ -81,15 +81,18 @@ Examples of the following below:
 1. [Text](#text)
 2. [Hyperlink](#hyperlink)
 3. [Quote](#quote)
-4. [Image](#image)
-5. [Gallery](#gallery)
-6. [Second Gallery](#second-gallery)
-7. [Video](#video)
-8. [Standard button](#standard-button)
-9. [Call to Action (CTA) Button](#call-to-action-cta-button)
-10. [Skills](#skills)
-11. [Feature row](#feature-row)
-12. [Contact Form](#contact-form)
+4. [Hero](#hero)
+5. [Logo](#logo)
+6. [Favicon](#favicon)
+7. [Image](#image)
+8. [Gallery](#gallery)
+9. [Second Gallery](#second-gallery)
+10. [Video](#video)
+11. [Standard button](#standard-button)
+12. [Call to Action (CTA) Button](#call-to-action-cta-button)
+13. [Skills](#skills)
+14. [Feature row](#feature-row)
+15. [Contact Form](#contact-form)
 
 
 ## 1. Use markdown to format text {#text}
@@ -101,30 +104,34 @@ Examples of the following below:
 
 {% include quote text="This was the most polished student game I have ever played in my life!" author="Mentor Feedback" %}
 
-## 4. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
+## 4. Hero {#hero}
+
+## 5. Logo {#logo}
+
+## 6. Favicon {#favicon}
+
+## 7. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
-## 5. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  {#gallery}
+## 8. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  {#gallery}
 {% include gallery id="gallery_gameplay" layout="third" thumb_height="180px" %}
 
-## 6. Second gallery in the same page - Make sure you reference the gallery id. {#second-gallery}
+## 9. Second gallery in the same page - Make sure you reference the gallery id. {#second-gallery}
 ## Game Art Gallery
 {% include gallery id="gallery_gameart" layout="third" thumb_height="180px" %}
 
-## 7. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`.  {#video}
+## 10. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`.  {#video}
 Let's talk about the Rick Roll phenomena...
 {% include video id="dQw4w9WgXcQ" provider="youtube" %}
 
-## 8. Standard button - Look at the `button` include to see the available keys. {#standard-button}
-{::nomarkdown}
+## 11. Standard button - Look at the `button` include to see the available keys. {#standard-button}
 {% include button
   url="/projects/"
   label="View All Projects"
   class="btn--primary"
 %}
-{:/nomarkdown}
 
-## 9. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys. {#call-to-action-cta-button}
+## 12. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys. {#call-to-action-cta-button}
 
 {% include download
   title="Download my Project Proposal"
@@ -133,13 +140,13 @@ Let's talk about the Rick Roll phenomena...
   download="Project-proposal.pdf"
 %}
 
-## 10. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. Use <a href="https://fontawesome.com/icons" target="_blank" rel="noopener noreferrer">Font Awesome</a> for icons. {#skills}
+## 14. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. Use <a href="https://fontawesome.com/icons" target="_blank" rel="noopener noreferrer">Font Awesome</a> for icons. {#skills}
 {% include skills skills=page.skills %}
 
-## 11. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys.  {#feature-row}
+## 14. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys.  {#feature-row}
 {% include feature_row %}
 
-## 12. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this.  {#contact-form}
+## 15. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this.  {#contact-form}
 {% include google-form
   title="Contact Me"
   src="https://forms.gle/XsbApFoRjn7r24jy6"
