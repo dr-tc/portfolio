@@ -102,7 +102,7 @@ Examples of the following below:
 
 ## 3. Quote - Think of ways to use this in your portfolio and I don't want to see this quote used in your final portfolios! {#quote}
 
-{% include quote text="This was the most polished student game I have ever played in my life!" author="Mentor Feedback" %}
+{% include quote text="This was the most polished student game I have ever played in my life!" author="Lecturer Feedback" %}
 
 ## 4. Hero {#hero}
 
