@@ -59,7 +59,7 @@ gallery_gameart:
 
 This is a short introduction paragraph that explains the project, the theme, and the main goal of the jam. It gives visitors quick context before they view the media.
 
-{% include figure image_path="/assets/images/placeholder.jpg" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
+{% include figure image_path="/assets/images/placeholder-2.jpg" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
 Here is a second paragraph with more detail about the gameplay loop, tools used, and what the team learned during the jam. This text sits between the intro image and the gallery.
 
