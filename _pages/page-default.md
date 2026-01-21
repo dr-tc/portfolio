@@ -8,8 +8,7 @@ This page uses the `default` layout. It is a minimal wrapper around your content
 You can use it for simple pages where you want full control over the markup.
 
 {% include download
-  title="Download my CV"
-  text="Grab the full CV here."
+  title="Download my Project Proposal"
   url="/assets/downloads/Project-proposal.pdf"
   button_label="Download Project Proposal"
   download="Project Proposal.pdf"
