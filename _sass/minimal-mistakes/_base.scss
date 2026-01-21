@@ -373,10 +373,26 @@ figcaption {
   margin: 0 0 0.5em;
 }
 
-.skill-card__meter-label {
-  margin-top: 0.25em;
+.skill-card__meta {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.skill-card__meta-label {
   font-size: $type-size-7;
   color: $muted-text-color;
+}
+
+.skill-card__meta-value {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  background: mix(#fff, $primary-color, 90%);
+  color: $text-color;
+  font-size: $type-size-7;
+  font-weight: 600;
 }
 
 /* Fix IE9 SVG bug */

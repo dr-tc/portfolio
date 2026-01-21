@@ -20,9 +20,15 @@
           <p class="skill-card__text">{{ skill.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
         {% if skill.years %}
-          <div class="skill-card__meter-label">{{ skill.years }} years</div>
+          <div class="skill-card__meta">
+            <span class="skill-card__meta-label">Experience</span>
+            <span class="skill-card__meta-value">{{ skill.years }} years</span>
+          </div>
         {% elsif skill.level_label %}
-          <div class="skill-card__meter-label">{{ skill.level_label }}</div>
+          <div class="skill-card__meta">
+            <span class="skill-card__meta-label">Level</span>
+            <span class="skill-card__meta-value">{{ skill.level_label }}</span>
+          </div>
         {% endif %}
       </div>
     </div>
