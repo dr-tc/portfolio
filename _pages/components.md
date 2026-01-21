@@ -78,50 +78,51 @@ feature_row:
 
 This page is a workspace for demonstrating available components. 
 Examples of the following below:
-1. Text
-2. Hyperlink
-3. Quote
-4. Image
-5. Gallery
-6. Second Gallery (use ID to embed multiple galleries)
-7. Video
-8. Standard button
-9. Call to Action (CTA) Button (used for downloads)
-10. Skills
-11. Contact Form (using an embed Google Form)
-12. Feature row
+1. [Text](#text)
+2. [Hyperlink](#hyperlink)
+3. [Quote](#quote)
+4. [Image](#image)
+5. [Gallery](#gallery)
+6. [Second Gallery](#second-gallery)
+7. [Video](#video)
+8. [Standard button](#standard-button)
+9. [Call to Action (CTA) Button](#call-to-action-cta-button)
+10. [Skills](#skills)
+11. [Feature row](#feature-row)
+12. [Contact Form](#contact-form)
 
 
-## 1. Use markdown to format text 
+## 1. Use markdown to format text {#text}
 <a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">Markdown Guide</a>.
 
-## 2. Hyperlink - <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Example Hyperlink</a>. Open `components.md` page and copy this example.
+## 2. Hyperlink - <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Example Hyperlink</a>. Open `components.md` page and copy this example. {#hyperlink}
 
-## 3. Quote - Think of ways to use this in your portfolio and I don't want to see this quote used in your final portfolios!
+## 3. Quote - Think of ways to use this in your portfolio and I don't want to see this quote used in your final portfolios! {#quote}
 
 {% include quote text="This was the most polished student game I have ever played in my life!" author="Mentor Feedback" %}
 
-## 4. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility.
+## 4. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
-## 5. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  
+## 5. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  {#gallery}
 {% include gallery id="gallery_gameplay" layout="third" thumb_height="180px" %}
 
-## 6. Second gallery in the same page - Make sure you reference the gallery id.
+## 6. Second gallery in the same page - Make sure you reference the gallery id. {#second-gallery}
 ## Game Art Gallery
 {% include gallery id="gallery_gameart" layout="third" thumb_height="180px" %}
 
-## 7. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`. 
+## 7. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`.  {#video}
+Let's talk about the Rick Roll phenomena...
 {% include video id="dQw4w9WgXcQ" provider="youtube" %}
 
-## 8. Standard button - Look at the `button` include to see the available keys.
+## 8. Standard button - Look at the `button` include to see the available keys. {#standard-button}
 {% include button
   url="/projects/"
   label="View Projects"
   class="btn--primary"
 %}
 
-## 9. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys.
+## 9. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys. {#call-to-action-cta-button}
 
 {% include download
   title="Download my Project Proposal"
@@ -130,17 +131,18 @@ Examples of the following below:
   download="Project-proposal.pdf"
 %}
 
-## 10. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. 
+## 10. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys.  {#skills}
 {% include skills skills=page.skills %}
 
+## 11. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys.  {#feature-row}
+{% include feature_row %}
 
-## 11. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this. 
+## 12. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this.  {#contact-form}
 {% include google-form
   title="Contact Me"
   src="https://forms.gle/XsbApFoRjn7r24jy6"
   height="800"
 %}
 
-## 12. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys. 
-{% include feature_row %}
+
 
