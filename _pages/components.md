@@ -111,7 +111,7 @@ To use a logo in the `masthead` of your site. Ensure you have the images stored 
 What is a favicon? To use one on your site, go to <a href="https://favicon.io/" target="_blank" rel="noopener noreferrer">Favicon.io</a> and generate a set of favicons. For now you can just upload the 32 x 32 size to `assets/images`. 
 
 ## 6. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility. {#image}
-{% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
+{% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="This is a caption" %}
 
 ## 7. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  {#gallery}
 {% include gallery id="gallery_gameplay" layout="third" thumb_height="180px" %}
