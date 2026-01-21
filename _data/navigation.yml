@@ -18,6 +18,8 @@ main:
         url: /pages/single/
       - title: "Splash Layout"
         url: /pages/splash/
+  - title: "Components"
+    url: /components/
  
 
 # Sidebar menu for the Projects page
