@@ -1,0 +1,16 @@
+<div class="google-form {{ include.class }}">
+  {% if include.title %}
+    <h2 class="google-form__title">{{ include.title }}</h2>
+  {% endif %}
+  <iframe
+    src="{{ include.src }}"
+    class="google-form__iframe"
+    width="{{ include.width | default: '100%' }}"
+    height="{{ include.height | default: '800' }}"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    loading="lazy"
+    title="{{ include.title | default: 'Google Form' }}"
+  >Loading…</iframe>
+</div>

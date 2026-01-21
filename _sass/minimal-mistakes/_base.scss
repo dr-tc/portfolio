@@ -395,6 +395,20 @@ figcaption {
   font-weight: 600;
 }
 
+/* Google Form embed */
+.google-form {
+  margin: 2em 0;
+}
+
+.google-form__title {
+  margin-bottom: 0.75em;
+}
+
+.google-form__iframe {
+  width: 100%;
+  border: 0;
+}
+
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
