@@ -42,15 +42,11 @@ gallery_gameart:
     alt: "Art 1"
     title: "Style pass"
     caption: "Style pass"
-    text: "Color palette and lighting tests."
-    width: "280px"
   - url: /assets/images/placeholder.png
     image_path: /assets/images/placeholder.png
     alt: "Art 2"
     title: "Final polish"
     caption: "Final polish"
-    text: "Final art, lighting, and UI polish."
-    width: "280px"
 skills:
   - name: "Unity"
     icon: "fab fa-fw fa-unity"
@@ -62,6 +58,22 @@ skills:
     badges: ["Game Mechanics", "Levels", "UI"]
     text: "Designed mechanics, levels, and player feedback loops."
     level_label: "Beginner"
+feature_row:
+  - image_path: /assets/images/placeholder.png
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/placeholder.png
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/placeholder.png
+    alt: "placeholder image 4"
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
 This page is a workspace for demonstrating available components. 
@@ -77,6 +89,7 @@ Examples of the following below:
 9. Call to Action (CTA) Button (used for downloads)
 10. Skills
 11. Contact Form (using an embed Google Form)
+12. Feature row
 
 
 ## 1. Use markdown to format text 
@@ -91,14 +104,12 @@ Examples of the following below:
 ## 4. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility.
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
-## 5. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. 
-
-## Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  
-{% include gallery id="gallery_gameplay" layout="third" %}
+## 5. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  
+{% include gallery id="gallery_gameplay" layout="third" thumb_height="180px" %}
 
 ## 6. Second gallery in the same page - Make sure you reference the gallery id.
 ## Game Art Gallery
-{% include gallery id="gallery_gameart" layout="third" %}
+{% include gallery id="gallery_gameart" layout="third" thumb_height="180px" %}
 
 ## 7. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`. 
 {% include video id="dQw4w9WgXcQ" provider="youtube" %}
@@ -130,4 +141,6 @@ Examples of the following below:
   height="800"
 %}
 
+## 12. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys. 
+{% include feature_row %}
 

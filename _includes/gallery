@@ -17,8 +17,9 @@
 {% endif %}
 
 {% assign gallery_id = include.id | default: 'gallery' %}
+{% assign thumb_height = include.thumb_height %}
 
-<div class="gallery gallery--{{ gallery_layout }} {{ include.class }}">
+<div class="gallery gallery--{{ gallery_layout }} {% if thumb_height %}gallery--thumbs{% endif %} {{ include.class }}"{% if thumb_height %} style="--gallery-thumb-height: {{ thumb_height }};"{% endif %}>
   {% for img in gallery %}
     {% assign lightbox_title = img.title | default: img.caption %}
     <figure class="gallery__item">

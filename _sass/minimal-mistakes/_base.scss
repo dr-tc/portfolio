@@ -301,6 +301,11 @@ figcaption {
   height: auto;
 }
 
+.gallery--thumbs .gallery__item img {
+  height: var(--gallery-thumb-height);
+  object-fit: cover;
+}
+
 .gallery__caption {
   position: absolute;
   inset-inline: 0;
