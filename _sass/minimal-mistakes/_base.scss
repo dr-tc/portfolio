@@ -261,6 +261,26 @@ figcaption {
   }
 }
 
+/* Quotes */
+.quote {
+  margin: 1.5em 0;
+  padding: 1em 1.25em;
+  border-left: 4px solid $primary-color;
+  background: mix(#fff, $primary-color, 95%);
+  border-radius: $border-radius;
+}
+
+.quote__text {
+  margin: 0;
+  font-style: italic;
+}
+
+.quote__author {
+  margin-top: 0.5em;
+  color: $muted-text-color;
+  font-size: $type-size-6;
+}
+
 /* Gallery layout */
 .gallery {
   display: grid;
