@@ -9,5 +9,5 @@ sidebar:
 
 ---
 
-##Use markdown to format text 
-This is a project page that is a child of Projects, 
+## Use markdown to format text 
+This is a project page that is a child of Projects. Take a look at `projects-game-jam.md`to how the sidebar key displays the nested navigation. 
