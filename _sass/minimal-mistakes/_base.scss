@@ -395,6 +395,23 @@ figcaption {
   font-weight: 600;
 }
 
+/* CV download call-to-action */
+.cv-download {
+  margin: 2em 0;
+  padding: 1.5em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: #fff;
+}
+
+.cv-download__title {
+  margin-top: 0;
+}
+
+.cv-download__text {
+  margin-bottom: 1em;
+}
+
 /* Google Form embed */
 .google-form {
   margin: 2em 0;

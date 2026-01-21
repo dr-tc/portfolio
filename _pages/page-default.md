@@ -6,6 +6,15 @@ permalink: /pages/default/
 
 This page uses the `default` layout. It is a minimal wrapper around your content.
 You can use it for simple pages where you want full control over the markup.
+
+{% include cv-download
+  title="Download my CV"
+  text="Grab the full CV here."
+  url="/assets/files/cv.pdf"
+  button_label="Download CV"
+  download="StudentName-CV.pdf"
+%}
+
 {% include google-form
   title="Contact Me"
   src="https://forms.gle/XsbApFoRjn7r24jy6"

@@ -29,7 +29,7 @@ gallery_gameplay:
     title: "Boss arena"
     caption: "Boss arena"
   - url: /assets/images/placeholder.png
-    image_path: /assets/images/placeholder.jpg
+    image_path: /assets/images/placeholder.png
     alt: "Gameplay 5"
     title: "UI feedback"
     caption: "UI feedback"
