@@ -6,7 +6,7 @@
     <p class="download__text">{{ include.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
   {% endif %}
   {% if include.url %}
-    <a href="{{ include.url }}"
+    <a href="{{ include.url | relative_url }}"
        class="btn btn--primary {{ include.button_class }}"
        {% if include.target %}target="{{ include.target }}"{% endif %}
        {% if include.target == "_blank" %}rel="noopener noreferrer"{% endif %}
