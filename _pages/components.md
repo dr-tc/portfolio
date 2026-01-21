@@ -131,7 +131,7 @@ Let's talk about the Rick Roll phenomena...
   download="Project-proposal.pdf"
 %}
 
-## 10. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys.  {#skills}
+## 10. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. Use <a href="https://fontawesome.com/icons" target="_blank" rel="noopener noreferrer">Font Awesome</a> for icons. {#skills}
 {% include skills skills=page.skills %}
 
 ## 11. Feature row - An excellent way to showcase projects or other hidden talents that you might have. Look at the `feature_row` include for available keys.  {#feature-row}
