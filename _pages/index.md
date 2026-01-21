@@ -9,6 +9,7 @@ header:
   actions:
     - label: "Download CV"
       url: "https://drive.google.com/file/d/1ePqrAcar-abcMBgLCd7uo0HUbZDd929t/preview"
+      target: "_blank"
 
 
 excerpt: "You can add text here."
