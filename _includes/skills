@@ -19,11 +19,10 @@
         {% if skill.text %}
           <p class="skill-card__text">{{ skill.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
-        {% if skill.level %}
-          <div class="skill-card__meter" aria-label="Experience level">
-            <div class="skill-card__meter-fill" style="width: {{ skill.level }}%;"></div>
-          </div>
-          <div class="skill-card__meter-label">{{ skill.level }}% experience</div>
+        {% if skill.years %}
+          <div class="skill-card__meter-label">{{ skill.years }} years</div>
+        {% elsif skill.level_label %}
+          <div class="skill-card__meter-label">{{ skill.level_label }}</div>
         {% endif %}
       </div>
     </div>
