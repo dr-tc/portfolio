@@ -53,11 +53,26 @@ gallery_gameart:
     width: "280px"
 ---
 
-This page is a workspace for demonstrating available components. Add examples below.
+This page is a workspace for demonstrating available components. 
+Examples of the following below:
+1. Text
+2. Hyperlink
+2. Image
+3. Gallery
+4. Second Gallery (use ID to embed multiple galleries)
+5. Video
+6. Standard button
+7. Call to Action (CTA) Button (used for downloads)
+8. Skills
+9. Contact Form (using an embed Google Form)
 
-##Use markdown to format text 
-This is a short introduction paragraph that explains the project, the theme, and the main goal of the jam. It gives visitors quick context before they view the media.
 
+## 1. Use markdown to format text 
+<a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">Markdown Guide</a>
+
+## 2. Hyperlink - <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Example Hyperlink</a>
+
+## 3. Single image - 
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
 Here is a second paragraph with more detail about the gameplay loop, tools used, and what the team learned during the jam. This text sits between the intro image and the gallery.
