@@ -57,6 +57,7 @@ gallery_gameart:
     width: "280px"
 ---
 
+##Use markdown to format text 
 This is a short introduction paragraph that explains the project, the theme, and the main goal of the jam. It gives visitors quick context before they view the media.
 
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}

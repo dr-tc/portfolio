@@ -324,6 +324,73 @@ figcaption {
   }
 }
 
+/* Skills */
+.skills {
+  display: grid;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.skill-card {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 1em;
+  padding: 1em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: #fff;
+}
+
+.skill-card__icon {
+  font-size: 1.75em;
+  color: $primary-color;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.skill-card__title {
+  margin: 0 0 0.25em;
+}
+
+.skill-card__badges {
+  list-style: none;
+  margin: 0 0 0.5em;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.skill-card__badges li {
+  background: $border-color;
+  padding: 0.2em 0.6em;
+  border-radius: 999px;
+  font-size: $type-size-7;
+}
+
+.skill-card__text {
+  margin: 0 0 0.5em;
+}
+
+.skill-card__meter {
+  height: 8px;
+  background: $border-color;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.skill-card__meter-fill {
+  height: 100%;
+  background: $primary-color;
+}
+
+.skill-card__meter-label {
+  margin-top: 0.25em;
+  font-size: $type-size-7;
+  color: $muted-text-color;
+}
+
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
