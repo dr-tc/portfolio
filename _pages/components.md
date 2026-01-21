@@ -118,7 +118,7 @@ Let's talk about the Rick Roll phenomena...
 ## 8. Standard button - Look at the `button` include to see the available keys. {#standard-button}
 {% include button
   url="/projects/"
-  label="View Projects"
+  label="View All Projects"
   class="btn--primary"
 %}
 
