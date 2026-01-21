@@ -295,14 +295,22 @@ figcaption {
   border-radius: $border-radius;
 }
 
+.gallery__link {
+  display: block;
+}
+
 .gallery__item img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.gallery--thumbs .gallery__item img {
+.gallery--thumbs .gallery__item {
   height: var(--gallery-thumb-height);
+}
+
+.gallery--thumbs .gallery__item img {
+  height: 100%;
   object-fit: cover;
 }
 
