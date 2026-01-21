@@ -39,7 +39,7 @@ gallery_gameplay:
     title: "Final tweak"
     caption: "Final tweak"
 
-gallery_art:
+gallery_gameart:
   # Recommended: width "240px" to "320px" keeps a neat grid
   - url: /assets/images/placeholder.jpg
     image_path: /assets/images/placeholder.jpg
@@ -65,3 +65,5 @@ Here is a second paragraph with more detail about the gameplay loop, tools used,
 
 ## Gameplay Gallery
 {% include gallery id="gallery_gameplay" layout="third" %}
+## Game Art Gallery
+{% include gallery id="gallery_gameart" layout="third" %}
