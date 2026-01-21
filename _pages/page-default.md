@@ -11,7 +11,7 @@ You can use it for simple pages where you want full control over the markup.
   title="Download my Project Proposal"
   url="/assets/downloads/Project-proposal.pdf"
   button_label="Download Project Proposal"
-  download="Project Proposal.pdf"
+  download="Project-proposal.pdf"
 %}
 
 {% include google-form
