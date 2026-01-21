@@ -116,11 +116,13 @@ Let's talk about the Rick Roll phenomena...
 {% include video id="dQw4w9WgXcQ" provider="youtube" %}
 
 ## 8. Standard button - Look at the `button` include to see the available keys. {#standard-button}
+{::nomarkdown}
 {% include button
   url="/projects/"
   label="View All Projects"
   class="btn--primary"
 %}
+{:/nomarkdown}
 
 ## 9. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys. {#call-to-action-cta-button}
 
