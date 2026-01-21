@@ -8,10 +8,5 @@ sidebar:
     - projects
 ---
 
-This page demonstrates the `video` include.
+This page is another project page that is nested within Projects.
 
-{% include video id="dQw4w9WgXcQ" provider="youtube" %}
-
-I would like to talk about the Rick Roll phenomena. What is that all about?
-
-{% include video id="QMW4AqbuSGg" provider="youtube" %}

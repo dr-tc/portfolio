@@ -51,33 +51,83 @@ gallery_gameart:
     caption: "Final polish"
     text: "Final art, lighting, and UI polish."
     width: "280px"
+skills:
+  - name: "Unity"
+    icon: "fab fa-fw fa-unity"
+    badges: ["C#", "Game Dev"]
+    text: "Built multiple prototypes and a published jam game."
+    years: 2
+  - name: "Game Design"
+    icon: "fas fa-fw fa-gamepad"
+    badges: ["Game Mechanics", "Levels", "UI"]
+    text: "Designed mechanics, levels, and player feedback loops."
+    level_label: "Beginner"
 ---
 
 This page is a workspace for demonstrating available components. 
 Examples of the following below:
 1. Text
 2. Hyperlink
-2. Image
-3. Gallery
-4. Second Gallery (use ID to embed multiple galleries)
-5. Video
-6. Standard button
-7. Call to Action (CTA) Button (used for downloads)
-8. Skills
-9. Contact Form (using an embed Google Form)
+3. Quote
+4. Image
+5. Gallery
+6. Second Gallery (use ID to embed multiple galleries)
+7. Video
+8. Standard button
+9. Call to Action (CTA) Button (used for downloads)
+10. Skills
+11. Contact Form (using an embed Google Form)
 
 
 ## 1. Use markdown to format text 
-<a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">Markdown Guide</a>
+<a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">Markdown Guide</a>.
 
-## 2. Hyperlink - <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Example Hyperlink</a>
+## 2. Hyperlink - <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Example Hyperlink</a>. Open `components.md` page and copy this example.
 
-## 3. Single image - 
+## 3. Quote - Think of ways to use this in your portfolio and I don't want to see this quote used in your final portfolios!
+
+{% include quote text="This was the most polished student game I have ever played in my life!" author="Mentor Feedback" %}
+
+## 4. Single image - Use the `figure` include. Remember that it's good practice to include ALT text for accessibility.
 {% include figure image_path="/assets/images/placeholder-2.png" alt="Game Jam screenshot" caption="An example of how to insert a single image" %}
 
-Here is a second paragraph with more detail about the gameplay loop, tools used, and what the team learned during the jam. This text sits between the intro image and the gallery.
+## 5. Gallery - A gallery is a good way to showcase some of the various components of your game. Remember to name your galery appropriately. Look at the `gallery` include to see the available keys. 
 
-## Gameplay Gallery
+## Gameplay Gallery - The content of the gallery is in the `head` of this page. Look at the `gallery` include for available keys.  
 {% include gallery id="gallery_gameplay" layout="third" %}
+
+## 6. Second gallery in the same page - Make sure you reference the gallery id.
 ## Game Art Gallery
 {% include gallery id="gallery_gameart" layout="third" %}
+
+## 7. Video - Look at the `video` include to see how it handles vidoes from different sources. Also be mindful to only extract and use the `video id`. 
+{% include video id="dQw4w9WgXcQ" provider="youtube" %}
+
+## 8. Standard button - Look at the `button` include to see the available keys.
+{% include button
+  url="/projects/"
+  label="View Projects"
+  class="btn--primary"
+%}
+
+## 9. Call to Action (CTA) [Download button]. If you want to store downloadable information in your repo, you can use this CTA. Look at the `download` include to see the available keys.
+
+{% include download
+  title="Download my Project Proposal"
+  url="/assets/downloads/Project-proposal.pdf"
+  button_label="Download Project Proposal"
+  download="Project-proposal.pdf"
+%}
+
+## 10. Skills - The Skills content is in the `head` of this page. Look at the `skills` include for available keys. 
+{% include skills skills=page.skills %}
+
+
+## 11. Embedded Google Form. If you are going to add a Contact form then we need to adjust some settings in Google. Ask me about this. 
+{% include google-form
+  title="Contact Me"
+  src="https://forms.gle/XsbApFoRjn7r24jy6"
+  height="800"
+%}
+
+

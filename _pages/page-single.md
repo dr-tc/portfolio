@@ -17,5 +17,3 @@ skills:
 
 This page uses the `single` layout. It adds a page title, meta area, and supports a sidebar.
 Good for standard content pages like About or Project detail pages.
-## Skills Example
-{% include skills skills=page.skills %}
